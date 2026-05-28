@@ -3,8 +3,8 @@ class IngramCheck < Formula
 
   desc "Ingram Lightning Source PDF compliance checker and fixer"
   homepage "https://github.com/saggingmeniscus/ingram-check"
-  url "https://files.pythonhosted.org/packages/source/i/ingram-checker/ingram_checker-0.1.4.tar.gz"
-  sha256 "305085f2133594d7c385f3a90674cb239afffe142e63507acdea043d80694b21"
+  url "https://files.pythonhosted.org/packages/source/i/ingram-checker/ingram_checker-0.1.5.tar.gz"
+  sha256 "462c09dd05187476306c4e824c8b0586bed8bb00172d54f2d6436a22b00190bb"
   license "MIT"
 
   depends_on "python@3.13"
