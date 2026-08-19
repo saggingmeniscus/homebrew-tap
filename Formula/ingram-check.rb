@@ -3,30 +3,30 @@
 class IngramCheck < Formula
   desc "Ingram Lightning Source PDF compliance checker and fixer"
   homepage "https://github.com/saggingmeniscus/ingram-check"
-  version "0.1.7"
+  version "0.1.8"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/saggingmeniscus/ingram-check/releases/download/v0.1.7/ingram-check-macos-arm64.tar.gz"
-      sha256 "44295af6fc1bb25300463cd0c45be16463c4b6fb1427c6b787100e7c8449506e"
+      url "https://github.com/saggingmeniscus/ingram-check/releases/download/v0.1.8/ingram-check-macos-arm64.tar.gz"
+      sha256 "11445bdf12dc9f754f13271e60597af3a84ea70031924328d43a72f6da336252"
     end
 
     on_intel do
-      url "https://github.com/saggingmeniscus/ingram-check/releases/download/v0.1.7/ingram-check-macos-x86_64.tar.gz"
-      sha256 "8945e7d0718c1b6f9d7dc35000550826a84714f95d7c673e220fa98ded8c1919"
+      url "https://github.com/saggingmeniscus/ingram-check/releases/download/v0.1.8/ingram-check-macos-x86_64.tar.gz"
+      sha256 "7903c6a61402c20463b5b1c2560c78df7806019f8ddd75891dee4fbb0e581ed1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/saggingmeniscus/ingram-check/releases/download/v0.1.7/ingram-check-linux-arm64.tar.gz"
-      sha256 "8d8b3492074d3eae4ea3186cf70c018b98553c34ff757a874a7a26d8aad5feaa"
+      url "https://github.com/saggingmeniscus/ingram-check/releases/download/v0.1.8/ingram-check-linux-arm64.tar.gz"
+      sha256 "cc8f5aa9e2eff5733e26e6f9efa6b5d10e376320259bc6d66c3cd2e9cf9292ed"
     end
 
     on_intel do
-      url "https://github.com/saggingmeniscus/ingram-check/releases/download/v0.1.7/ingram-check-linux-x86_64.tar.gz"
-      sha256 "67e0986b3cefcf8ad5a1bc88eb22b9d548d24145719175e4b4bfe346b6d9b2a7"
+      url "https://github.com/saggingmeniscus/ingram-check/releases/download/v0.1.8/ingram-check-linux-x86_64.tar.gz"
+      sha256 "3b1cf6c4518dcb894a33b2b3ad31b11e332b9ed145bd8538abc595bf021f141b"
     end
   end
 
